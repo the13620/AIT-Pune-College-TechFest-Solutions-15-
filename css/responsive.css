@@ -1,0 +1,381 @@
+/* lg */ 
+@media (min-width: 1300px) {
+
+.circle-list p:before {
+left: -3.5em;
+}
+  
+}
+
+@media (min-width: 992px) and (max-width: 1299px) {
+
+.circle-list p:before {
+left: -2em;
+}
+
+ #names td {
+    min-width: 150px;
+	height: 150px;
+}
+
+.contact-info  i{
+   margin: 15px 50px;
+}
+  
+
+ .tabs-right>li>a {
+  padding: 20px 15px;
+ }
+ 
+ .tabs-right>li>a:hover,
+.tabs-right>li>a:focus {
+  padding: 20px 15px;
+ }
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .navbar-nav li a {
+    padding: 35px 15px;
+  }
+  
+  .about-content {
+    width: 100%;    
+    padding: 70px 25px 110px;
+  }
+.card{  
+left: 50%;
+transform: translate(-12%, 0);
+}
+
+#top-navi{
+visibility: hidden;
+}  
+
+#heading {
+position: absolute;
+top: -30px;
+}
+
+.circle-list p:before {
+left: -2em;
+}
+  
+#names td {
+    min-width: 120px;
+	width: 120px;
+	height: 120px;
+}
+
+.carousel-control {
+margin: 0 -60px;
+}
+
+.contact-info  i{
+   display: none;
+   padding: 5px;
+}
+
+.contact-info {
+    padding: 10px;
+}
+ .tabs-right>li>a {
+  padding: 10px;
+ }
+ 
+ .tabs-right>li>a:hover,
+.tabs-right>li>a:focus {
+  padding: 10px;
+ }
+  
+  #event h2, 
+  #about h2, 
+  #sponsor h2 {
+    font-size: 30px;
+	text-align: center;
+  }
+  
+  .sponsor-control-left {
+    right:8%;
+  }
+  
+  .sponsor-control-right {
+    right: 5%;
+  }
+
+}
+
+/* xs */
+@media (max-width: 767px) {
+
+  .viva-social ul li{
+  margin: 0 15px;
+ }
+ 
+     #particle-wrapper {
+    visibility: hidden;
+  }
+  
+  #about{
+  display: none;
+  }
+  
+    #explore{
+  display: none;
+  }
+  
+  
+       #viva-theme{
+    visibility: visible;
+  }
+  
+  .panel-heading {
+  padding: 30px 100px;
+  height:100px;
+  background: #000 !important;
+  }
+  
+ .panel-title {
+   font-size:35px;
+  }
+  
+.card{  
+left: 50%;
+transform: translate(-13%, 0);
+}
+
+.middle-row {
+-ms-transform: none;
+-webkit-transform: none;
+-moz-transform: none;
+transform: none;
+}
+
+#top-navi{
+visibility: hidden;
+}  
+
+#heading {
+position: relative;
+text-align: left;
+width: 100%;
+top: 10px;
+margin-bottom: -40px;
+left: 15px;
+right: inherit;
+}
+
+#heading h1{
+font-size: 40px;
+font-size: 4rem;
+}
+
+.circle-list p:before {
+left: -2em;
+}
+ 
+ .hero-unit-icon{
+   display:none;
+ }
+ 
+ .hero-text{
+    display:none;
+ }
+  
+  #names td {
+    min-width: 100px;
+	height: 120px;
+}
+
+.carousel-control {
+margin: 0 -40px;
+}
+
+.contact-info  i{
+   display: none;
+   padding: 5px;
+}
+
+.contact-info {
+    padding: 10px;
+}
+ .tabs-right>li>a {
+  padding: 5px;
+ }
+ 
+ .tabs-right>li>a:hover,
+.tabs-right>li>a:focus {
+  padding: 5px;
+ }
+ 
+#names tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+  display: none; 
+}
+  
+ 
+  #explore {
+    background-size:cover;
+  }
+
+  #explore h2 {
+    float: inherit;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }  
+
+  #event h2, 
+  #about h2, 
+  #sponsor h2 {
+    font-size: 30px;
+	text-align: center;
+  }
+
+  #sponsor {
+    background-position: right 0 bottom 0;
+  }
+
+  .sponsor-control-left, 
+  .sponsor-control-right {
+    top:0;
+  }
+
+  .sponsor-control-left {
+    right: 10%;
+  }
+
+  .sponsor-control-right {
+    right: 5%;
+  }
+
+  #sponsor .item ul li {
+    width: 30%;
+    margin-right:3%
+  }
+
+  #sponsor .item ul li:last-child {
+    margin-right: 0;
+   }
+
+
+  #footer {
+    font-size: 16px;
+  }
+
+   .contact-section {
+    background-position: left 0 bottom 0;
+    background-size: cover;
+  }
+
+  .about-content {
+    width: 100%;    
+    padding: 70px 25px 110px;
+  }
+
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+
+  .main-nav .container {
+    display: none;
+  }
+  
+ .viva-social ul li{
+  margin: 0 3px;
+ }
+
+ #explore {
+    background-size:cover;
+  }
+
+  #explore h2 {
+    float: inherit;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }  
+
+  .about-content {
+    width: 100%;    
+    padding: 20px;
+  }
+  
+  .prizes p{
+  text-align: left !important;
+  position: relative !important;
+  font-size: 30px !important;
+  transform: none !important;
+  }
+  
+   .panel-heading {
+  padding: 20px 60px;
+  height:90px;
+  background: #000 !important;
+  }
+  
+ .panel-title {
+   font-size:25px;
+   margin-top: 10px;
+  }
+  
+    .card{  
+left: 50%;
+transform: translate(-23%, 0);
+}
+ 
+
+  #event h2, 
+  #about h2, 
+  #sponsor h2 {
+    font-size: 30px;
+  }
+
+  .about-content p {
+    font-size: 15px;
+  }
+
+  #sponsor {
+    background-position: right 0 bottom;
+  }
+
+  .sponsor-control-left, 
+  .sponsor-control-right {
+    top: 0;
+  }
+
+  .sponsor-control-left {
+    right: 10%;
+  }
+
+  .sponsor-control-right {
+    right: 5%;
+  }
+
+  #sponsor .item ul li {
+    width: 45%;
+    margin-right: 5%
+  }
+
+  #sponsor .item ul li:last-child {
+    margin-right: 0;
+   }
+ 
+  #footer {
+    font-size: 14px;
+  }
+
+  .contact-section {
+    background-position: left 0 bottom 0;
+    background-size: cover;
+  }
+
+}
+
+@media (max-height: 570px)
+{
+    .viva-tree {
+		display:none;
+    }
+
+}

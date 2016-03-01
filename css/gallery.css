@@ -1,0 +1,258 @@
+img{
+  max-width:100%;
+  height:auto;
+}
+
+img.brand  {
+  opacity: 0.7;
+  cursor:pointer;
+}
+
+img.brand:hover  {
+  opacity:1; 
+}
+
+/* media */
+.media-box {
+  position:relative;
+  overflow: hidden;
+  float:left;
+  width:50%;
+}
+
+
+
+.media-box img, .project-image img{
+  width:100%;
+  height:auto;
+  float:left;
+  -webkit-transition: 0.5s ease-in-out;
+     -moz-transition: 0.5s ease-in-out;
+      -ms-transition: 0.5s ease-in-out;
+       -o-transition: 0.5s ease-in-out;
+          transition: 0.5s ease-in-out;  
+}
+
+.media-box:hover img, .project-image:hover img {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.media-box, .project-image {
+  background:transparent;
+}
+
+.media-box .media-link-1, .project-image .media-link-1{
+  position: absolute;
+  top: 50%;
+  margin-top:-10px;
+  left: 0;
+  text-align:right;
+  font-size:14px;
+  font-weight:700;
+  width: 47.5%;
+  color: #FFFFFF;
+  -webkit-transition: 0.5s ease-in-out;
+     -moz-transition: 0.5s ease-in-out;
+      -ms-transition: 0.5s ease-in-out;
+       -o-transition: 0.5s ease-in-out;
+          transition: 0.5s ease-in-out;  
+  -moz-opacity:0; filter:alpha(opacity=0); opacity:0; -khtml-opacity:0; 
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+
+
+.media-box .media-link-2, .project-image .media-link-2 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top:-10px;
+  text-align:left;
+  text-indent:0px;
+  font-size:14px;
+  font-weight:700;  
+  width: 47.5%;
+  color: #FFFFFF;
+  -webkit-transition: 0.5s ease-in-out;
+     -moz-transition: 0.5s ease-in-out;
+      -ms-transition: 0.5s ease-in-out;
+       -o-transition: 0.5s ease-in-out;
+          transition: 0.5s ease-in-out;  
+  -moz-opacity:0; filter:alpha(opacity=0); opacity:0; -khtml-opacity:0; 
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.media-box .divider, .project-image .divider {
+  position: absolute;
+  top: 50%;
+  margin-top:-15px;
+  right: 49.5%;
+  padding:0px 0px 30px 0px;
+  border-left:1px solid #464646; 
+  width: 1px;
+  -webkit-transition: 0.5s ease-in-out;
+     -moz-transition: 0.5s ease-in-out;
+      -ms-transition: 0.5s ease-in-out;
+       -o-transition: 0.5s ease-in-out;
+          transition: 0.5s ease-in-out;  
+  -moz-opacity:0; filter:alpha(opacity=0); opacity:0; -khtml-opacity:0; 
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+
+.media-box:hover .media-link-1, .media-box:hover .media-link-2, .media-box:hover .divider,
+.project-image:hover .media-link-1, .project-image:hover .media-link-2, .project-image:hover .divider {
+  -moz-opacity:0.7; filter:alpha(opacity=70); opacity:0.7; -khtml-opacity:0.7; 
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+/* Project */
+
+
+.project-item {
+  overflow:hidden;
+  border:1px solid #C8CFD7;
+  margin:0px 10px 0px 10px;
+  padding: 10px;
+  position:relative;
+  -webkit-transition: 0.5s ease-in-out;
+     -moz-transition: 0.5s ease-in-out;
+      -ms-transition: 0.5s ease-in-out;
+       -o-transition: 0.5s ease-in-out;
+          transition: 0.5s ease-in-out;
+  background: #FFFFFF;        
+}
+
+.project-item-isotope {
+  overflow:hidden;
+  position:relative;
+  -webkit-transition: 0.5s ease-in-out;
+     -moz-transition: 0.5s ease-in-out;
+      -ms-transition: 0.5s ease-in-out;
+       -o-transition: 0.5s ease-in-out;
+          transition: 0.5s ease-in-out;
+  margin-bottom:30px;       
+}
+
+.project-item:hover, .project-item-isotope:hover {  
+  border: 1px solid #0ff;
+}
+
+.project-image {
+  position:relative;
+  overflow: hidden;
+  
+}
+/*	Portfolio */
+.portfolio{
+  overflow:hidden;
+  margin:0px;
+}
+
+.portfolio a{
+  text-decoration:none;
+}
+
+.portfolio li{
+  list-style:none;
+}
+
+
+/*	Portfolio Filter */
+
+#portfolio-filter{
+  overflow:hidden;
+  background: rgba(50,50,50,0.15);
+}
+    
+#portfolio-filter li {
+  list-style:none;
+  float:left;
+  margin:30px 0;
+  padding:6px 0px;
+  border-right: 1px solid #234645;
+}
+
+#portfolio-filter li:last-child { border-right: none }
+
+#portfolio-filter li:first-child a { margin-left: 0 }
+   
+#portfolio-filter li a {
+  padding:12px 15px;
+  margin: 0 15px;
+  //border-bottom: 2px solid #fff;
+  color: #a5a5a5;
+  background:transparent;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+  font-size:14px;
+  -webkit-transition: all 0s; 
+     -moz-transition: all 0s;
+      -ms-transition: all 0s;
+       -o-transition: all 0s;
+          transition: all 0s;   
+}
+ 
+#portfolio-filter li:hover a {
+  color: #2466dd;
+  background:transparent;
+  border-bottom: 2px solid #2466dd;
+  text-decoration:none;
+}
+    
+#portfolio-filter li.act a {
+  color:#2466dd;
+  border-bottom: 2px solid #2466dd;
+  text-decoration:none;
+}
+
+
+	/*	Portfolio - Isotype (filtering tags) */
+
+
+	.isotope-item {
+	  z-index: 2;
+	}
+
+	.isotope-hidden.isotope-item {
+	  pointer-events: none;
+	  z-index: 1;
+	}   
+
+	/* Isotope CSS3 transitions */    
+	.isotope,	.isotope .isotope-item {
+	  -webkit-transition-duration: 0.4s;
+		 -moz-transition-duration: 0.4s;
+		  -ms-transition-duration: 0.4s;
+		   -o-transition-duration: 0.4s;
+			  transition-duration: 0.4s;
+	}
+
+	.isotope {
+	  -webkit-transition-property: height, width;
+		 -moz-transition-property: height, width;
+		  -ms-transition-property: height, width;
+		   -o-transition-property: height, width;
+			  transition-property: height, width;
+	}
+
+	.isotope .isotope-item {
+	  -webkit-transition-property: -webkit-transform, opacity;
+		 -moz-transition-property:    -moz-transform, opacity;
+		  -ms-transition-property:     -ms-transform, opacity;
+		   -o-transition-property:         top, left, opacity;
+			  transition-property:         transform, opacity;
+	} 
+
+	/* disabling Isotope CSS3 transitions */
+	.isotope.no-transition,
+	.isotope.no-transition .isotope-item,
+	.isotope .isotope-item.no-transition {
+	  -webkit-transition-duration: 0s;
+		 -moz-transition-duration: 0s;
+		  -ms-transition-duration: 0s;
+		   -o-transition-duration: 0s;
+			  transition-duration: 0s;
+	}

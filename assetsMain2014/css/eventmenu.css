@@ -1,0 +1,250 @@
+a{
+	color:#fff;
+	text-decoration:none !important;
+}
+img.ac_bgimage{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	opacity:0.8;
+	display:none;
+}
+.ac_overlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+@media (max-width: 480px) {
+    .ac_content{
+		position:fixed;
+		height:100%;
+		width:15%;
+		top:0;
+		right:0.5em;
+		z-index: 2200;
+	}
+	.ac_subitem{
+		width:150px;
+		height:0px; /* animate to 400px */
+		top:50%;
+		right:0px;
+		margin-top:0px; /* animate to -200px */
+		position:fixed;
+		z-index:99;
+		overflow:hidden;
+	}
+}
+@media (min-width: 440px) {
+    .ac_content{
+		position:fixed;
+		height:100%;
+		width:25%;
+		top:0;
+		right:0.5em;
+		z-index: 2200;
+	}
+	.ac_subitem{
+		width:300px;
+		height:0px; /* animate to 400px */
+		top:50%;
+		right:0px;
+		margin-top:0px; /* animate to -200px */
+		position:fixed;
+		z-index:99;
+		overflow:hidden;
+	}
+}
+@media (min-width: 778px) {
+    .ac_content{
+		position:fixed;
+		height:100%;
+		width:20%;
+		top:0;
+		right:0.5em;
+		z-index: 2200;
+	}
+	.ac_subitem{
+		width:350px;
+		height:0px; /* animate to 400px */
+		top:50%;
+		right:0px;
+		margin-top:0px; /* animate to -200px */
+		position:fixed;
+		z-index:99;
+		overflow:hidden;
+	}
+}
+@media (min-width: 1000px) {
+    .ac_content{
+		position:fixed;
+		height:100%;
+		width:20%;
+		top:0;
+		right:0.5em;
+		z-index: 2200;
+	}
+	.ac_subitem{
+		width:400px;
+		height:0px; /* animate to 400px */
+		top:50%;
+		right:0px;
+		margin-top:0px; /* animate to -200px */
+		position:fixed;
+		z-index:99;
+		overflow:hidden;
+	}
+}
+@media (min-width: 1200px) {
+    .ac_content{
+		position:fixed;
+		height:100%;
+		width:20%;
+		top:0;
+		right:0.5em;
+		z-index: 2200;
+	}
+	.ac_subitem{
+		width:30%;
+		height:0px; /* animate to 400px */
+		top:50%;
+		right:0px;
+		margin-top:0px; /* animate to -200px */
+		position:fixed;
+		z-index:99;
+		overflow:hidden;
+	}
+}
+.ac_content h1{
+	background:transparent url(../images/bg_menu.png) repeat top left;
+	display:block;
+	float:left;
+	width:90px;
+	height:50px;
+	padding:20px;
+	font-size:36px;
+	font-weight:bold;
+	line-height:20px;
+	margin-right:1px;
+}
+.ac_content h1 span{
+	display:block;
+	font-weight:normal;
+	font-size:14px;
+}
+.ac_menu{
+	float:left;
+	position:relative;
+	bottom: 0px;
+	width:100% !important; 
+	height: 95%;
+}
+.ac_menu > ul{
+	float:right;
+	height: 100%;
+}
+.ac_menu > ul > li{
+	float:left;
+	position:relative;
+	overflow:hidden;
+	height: 5.5%;
+	width:100%;
+}
+.ac_menu > ul > li a{
+	margin-top:70px;
+	opacity:0;
+	display:block;
+	width:100%;
+	font-weight: 100;
+	padding:0px 10px;
+	text-align:center;
+	outline:none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.ac_menu > ul > li a:hover{
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+
+.ac_subitem h2{
+	font-weight:bold;
+	color:#fff;
+	padding: 40px 0px 0px 40px;
+	text-shadow:0px 0px 1px #000;
+	border-bottom:1px dotted #333;
+	padding-bottom:15px;
+	margin-bottom:15px;
+}
+.ac_subitem ul{
+	padding:0px 40px;
+	list-style-type: none;
+}
+.ac_subitem ul li{
+	margin:10px 0px;
+	text-shadow:1px 1px 1px #000;
+	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.2em;
+
+}
+
+span.ac_close{
+	float:right;
+	margin:10px;
+	width:30px;
+	font-size: 1.4em;
+	height:30px;
+	cursor:pointer;
+	background:transparent url(../images/close.png) no-repeat top left;
+	opacity:1.0;
+	background-size: 100%;
+	color: white;
+	z-index: 9999;
+}
+span.ac_close:hover{
+	opacity:1.0;
+}
+.ac_footer{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	font-size:13px;
+	background:#000;
+	opacity:0.9;
+	height:20px;
+	padding-bottom:5px;
+}
+.ac_footer a{
+	padding:5px 10px;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	color:#ddd;
+	float:right;
+}
+.footer a:hover{
+	color:#fff;
+}
+.ac_footer a span{
+	font-weight:bold;
+}
+.ac_footer a.ac_left{
+	float:left;
+}
+.credits {
+	position: absolute;
+	bottom: 0;
+	font-size: 0.5em;
+	padding: 0 auto;
+	font-size: 0.8em;
+	left:35%;
+}
+.credits p {
+	color: #fff;
+	font-weight: bold;
+}

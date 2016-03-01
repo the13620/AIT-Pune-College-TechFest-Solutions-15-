@@ -1,0 +1,731 @@
+@media (max-width: 480px) {
+    body,html {
+        font-size: 7px;
+    }
+}
+@media (min-width: 440px) {
+    body {
+        font-size: 10px;
+    }
+}
+@media (min-width: 600px) {
+    body {
+        font-size: 11px !important;
+    }
+}
+@media (min-width: 750px) {
+    body {
+        font-size: 12px !important;
+    }
+}
+@media (min-width: 1000px) {
+    body {
+        font-size: 14px !important;
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 480px) {
+    #wheels {
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 35%;
+        left: 35%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+    #aavishkaar{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 45%;
+        left: 60%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+
+    #perspective{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 42%;
+        left: 5%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+
+    #clueless{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 65%;
+        left: 70%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+    #bullsandbears{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 67%;
+        left: 10%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+
+    #android{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 75%;
+        left: 50%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+    #ideate{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 62%;
+        font-family: 'fontastique';
+        font-size: 0.4em;
+        left: 15%;
+        text-transform: uppercase;
+         word-spacing: -0.3em;
+        color: #000 !important;
+    }  
+    #date{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 82%;
+        font-family: 'fontastique';
+        font-size: 0.6em;
+        left: 15%;
+        text-transform: uppercase;
+         word-spacing: -0.3em;
+        color: #000 !important;
+    } 
+
+}
+
+.home-page {
+    height: 100%;
+    width: 100%;
+    background: #000;
+    color: #000;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+    #highlights
+    {
+        height: 80%;
+    }
+#highlights .main {
+    height: 100%;
+}
+
+#timer {
+    height: 80%;
+    background-image: url(../img/countdown.jpg);
+    background-size: 100%;
+    background-position: 300px -200px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#events {
+    height: 80%;
+    background-image: url(../img/events.jpg);
+    background-size: 100%;
+    color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#eventModal {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+#lectures {
+    height: 80%;
+    background-image: url(../img/lectures.jpg);
+    transition:height 0.5s; /* Animation time */
+    -webkit-transition:height 0.5s; /* For Safari */
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.show-odd {
+    background: rgba(0,0,0,0.3);
+}
+.show-even {
+    background: rgba(0,0,0,0.4);
+}
+#exhibitions {
+    height: 80%;
+}
+#contact {
+    background: #1abc9c;
+    color: #fff;
+}
+#nites {
+    height: 80%;
+    background-image: url(../img/nites.jpg);
+    background-size: 100%;
+    background-position: 0px -200px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#workshops {
+    height: 80%;
+    background-attachment: fixed;
+    background-image: url(../img/workshops.jpg);
+    background-size: 100%;
+    background-position: 0px -100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#isro
+{
+    background-image: url(../img/isro.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#matilda {
+    background-image: url(../img/matilda.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.page {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+}
+.page-alternate {
+    height: 100%;
+    width: 100%;
+    background: #001;
+    padding-top: 5em;
+    color: #fff;
+    overflow: hidden;
+}
+
+.page-alternate h1{
+    font-size: 4em;
+    text-decoration: bold;
+}
+
+.page-alternate p {
+    font-size: 1.3em;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.page-alternate a {
+    font-size: 1.5em;
+}
+#footer {
+  width: 100%;
+  height: 10%;
+  font-size: 1em;
+  padding-top: 0.3em;
+  text-align: center;
+  background: #2c3e50;
+  color: #fff;
+}
+#nextsection {
+    margin: 0;
+    position: relative;
+    float:right;
+    width: 50px;
+    height: 50px;
+    padding-top: 1em;
+    right:47%;
+    
+    -webkit-transition: background 0.1s linear 0s;  
+       -moz-transition: background 0.1s linear 0s;
+         -o-transition: background 0.1s linear 0s;
+            transition: background 0.1s linear 0s;
+}
+/*home page links*/
+
+.bmenu li{
+    z-index: 1000;
+    display: block;
+}
+.bmenu li a{
+    color: transparent;
+    display: block;
+    font-family: 'baron';
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.bmenu:hover li a{
+    text-shadow: 0px 0px 10px #fff;
+    color: #CDCDB4;
+}
+.bmenu li a:hover{
+    color: #000;
+    font-size: 1.7em;
+    text-shadow: 0px 0px 1px #fff;
+}
+
+@media (min-width: 440px) {
+    body {
+        font-size: 10px;
+    }
+    #wheels {
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 20%;
+        left: 35%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+    #user{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 5%;
+        right: 0;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+        width: 400px;
+    }
+    #aavishkaar{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 28%;
+        left: 60%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+    #festdate{
+        position: absolute;
+        font-weight: 400;
+        font-size: 1.7em;
+        line-height: 1;
+        margin: 0;
+        top: 60%;
+        left: 50%;
+    }
+    #perspective{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 35%;
+        left: 10%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+
+    #clueless{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 55%;
+        left: 80%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+    #bullsandbears{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 67%;
+        left: 20%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+
+    #android{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 75%;
+        left: 60%;
+        text-transform: uppercase;
+        word-spacing: -0.3em;
+    }
+    #ideate{
+        font-family: 'fontastique';
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        font-size: 0.8em;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 60%;
+        left: 50%;
+        word-spacing: -0.3em;
+        color: #000 !important;
+    }
+    #date{
+        position: absolute;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 6px;
+        margin: 0;
+        top: 90%;
+        font-family: 'fontastique';
+        font-size: 0.9em;
+        right:1em;
+        text-transform: uppercase;
+         word-spacing: -0.3em;
+        color: #000 !important;
+    } 
+}
+
+
+/*home page links*/
+#blocks {
+    height: 100%;
+    width: 100%;
+}
+.modalShow {
+    color:#fff;z-index:9999;height:70%;width:70%;left:15%;background:rgba(0,0,0,0.9  );position:fixed;top:10%;margin:0 auto;display:none;
+}
+#block2 
+{
+    width:25%;
+    height:100%;
+    background-image: url(../img/nites1.jpg);
+    position: relative;
+    float:left;
+    transition:width 0.5s; /* Animation time */
+    -webkit-transition:width 0.5s; /* For Safari */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    border-right: 0.2em solid black;
+    
+}
+#block1
+{
+    width:25%;
+    height:100%;
+    background-image: url(../img/nites2.jpg);
+    position: relative;
+    float:left;
+    transition:width 0.5s; /* Animation time */
+    -webkit-transition:width 0.5s; /* For Safari */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    border-right: 0.2em solid black;
+
+}
+#block3
+{
+    width:25%;
+    height:100%;
+     background-image: url(../img/gatc.jpg);
+    position: relative;
+    float:left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    transition:width 0.5s; /* Animation time */
+    -webkit-transition:width 0.5s; /* For Safari */
+}
+#block4
+{
+    width:25%;
+    height:100%;
+     background-image: url(../img/nites4.jpg);
+    position: relative;
+    float:left;
+    transition:width 0.5s; /* Animation time */
+    -webkit-transition:width 0.5s; /* For Safari */
+}
+.block :hover
+{
+    cursor: pointer;
+}
+.block .top
+{
+    position: relative;
+    top: 5em;
+    margin:0 auto;
+    width:60%;
+    height: 2em;
+    padding-top:15em;
+    transition:color 0.5s; /* Animation time */
+    -webkit-transition:color 0.5s; /* For Safari */
+}
+.block .top h3
+{
+    position: relative;
+    top: 2em;
+    font-size: 2em;
+    margin:0 auto;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+#shows 
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.show
+{
+    transition:height 0.5s; /* Animation time */
+    -webkit-transition: height 0.5s; /* For Safari */
+    -moz-transition: height 0.5s;
+    overflow:hidden;
+    cursor: pointer;
+    height: 100%;
+}
+#show1
+{
+    width:100%;    
+    background-size: 100%;
+    position: relative;
+    float:left;
+    transition:height 0.5s; /* Animation time */
+    -webkit-transition:height 0.5s; /* For Safari */
+}
+#show5
+{
+    width:100%; 
+    background-size: 100%;
+    position: relative;
+    float:left;
+    transition:height 0.5s; /* Animation time */
+    -webkit-transition:height 0.5s; /* For Safari */
+}
+#show6
+{
+    width:100%; 
+    background-size: 100%;
+    position: relative;
+    float:left;
+}
+#show7
+{
+    width:100%; 
+    background-size: 100%;
+    position: relative;
+    float:left;
+}
+#show8
+{
+    width:100%; 
+    background-size: 100%;
+    position: relative;
+    float:left;
+}
+#shows .page-description
+{
+    float: right;
+    font-size: 0.9em;
+    display: none;
+    text-align: justify;
+}
+#shows .page-description p {
+    padding-right: 5em;
+    padding-left: 5em;
+}
+#show2
+{
+    width:100%;
+    background-size: 100%;
+    position: relative;
+    float:left;
+}
+#show3
+{
+    width:100%;
+    background-size: 100%;
+    position: relative;
+    float:left;
+    
+}
+#show4
+{
+    width:100%;
+    background-size: 100%;
+    position: relative;
+    float:left;
+
+}
+#show5
+{
+    width:100%;
+    background-size: 100%;
+    position: relative;
+    float:left;
+   
+}
+
+.show h2
+{
+    position: relative;
+    padding: 0 auto;
+    width: 100%;
+    top: 0.3em;
+    font-size: 2em;
+    text-align: center;
+    -webkit-transition: top 0.5s;
+    transition: top 0.5s;
+}
+
+
+      .home-page {
+        -webkit-perspective: 1500px;
+        perspective: 1500px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+      }
+
+      .home-page .rotate {
+        -webkit-transform: translate3d(100px, 0, -600px) rotateY(-20deg);
+        transform: translate3d(100px, 0, -600px) rotateY(-20deg);
+      }
+      
+      .tg  {border-collapse:collapse;border-spacing:0;width: 100%}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;}
+.tg .tg-s6z2{text-align:center}
+
+    #map_canvas {
+        width: 100%;
+        height: 400px;
+    }
+#ticker
+    {
+        background:#DEDFD9;
+        border-radius: 5px;
+        width:300px;
+    height:40px;
+    position:absolute;
+    left:4em;
+    /*opacity: 0.6;*/
+        /*width: 300px;
+        height: 50px;
+        background-color: grey;*/
+    }
+    #ticker div
+    {
+        margin-left: 5px;
+    }
+    #tickercontainer
+    {
+        float: left;
+        position: relative;
+        width: 85%;
+        overflow: hidden;
+    }
+    #fullcontents
+    {
+        width: 20000px;
+    }
+    #fullcontents .contents
+    {
+        position: relative;
+        float: left;
+
+        height: 100%;
+        opacity: 0;
+        color: black;
+        font-size: 14px;
+        text-align: center;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+    #tickernext
+    {
+        background: url("/images/arrow.png");
+        background-size: 100% 100%; 
+        position: relative;
+        width: 5%;
+        top:30%;
+        height: 50%;
+        float: left;
+        cursor: pointer;
+    }
+    #tickerprev
+    {
+        background: url("/images/left.png");
+        background-size: 100% 100%; 
+        position: relative;
+        height: 50%;
+        top:30%;
+        width: 5%;
+        float: left;
+        cursor: pointer;
+    }
